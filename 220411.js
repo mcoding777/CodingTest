@@ -12,7 +12,7 @@
 https://programmers.co.kr/learn/courses/30/lessons/92334
 */
 
-// 첫번째 풀이
+// 첫번째 풀이 -----------------------------------------------------------------------------------------------
 
 function solution(id_list, report, k) {
   var answer = [];
@@ -56,7 +56,7 @@ function solution(id_list, report, k) {
   return answer;
 }
 
-// 두번째 풀이
+// 두번째 풀이 -----------------------------------------------------------------------------------------------
 
 function solution(id_list, report, k) {
   let user = new Map(); // 신고한 유저 목록
