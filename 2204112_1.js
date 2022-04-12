@@ -12,7 +12,7 @@
 https://programmers.co.kr/learn/courses/30/lessons/12930
 */
 
-// 첫번째 풀이
+// 첫번째 풀이 -----------------------------------------------------------------------------------------------
 
 function solution(s) {
   var answer = "";
@@ -39,7 +39,7 @@ function solution(s) {
   return answer;
 }
 
-// 두번째 풀이
+// 두번째 풀이 -----------------------------------------------------------------------------------------------
 
 function solution(s) {
   function changeWord(word) {
