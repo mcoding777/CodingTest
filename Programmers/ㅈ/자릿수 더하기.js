@@ -8,6 +8,9 @@
 [문제]
 자릿수 더하기
 
+[테스트 날짜]
+22.04.12
+
 [링크]
 https://programmers.co.kr/learn/courses/30/lessons/12931
 */

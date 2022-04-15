@@ -8,6 +8,9 @@
 [문제]
 2022 KAKAO BLIND RECRUITMENT 신고 결과 받기
 
+[테스트 날짜]
+22.03.29
+
 [링크]
 https://programmers.co.kr/learn/courses/30/lessons/92334
 */

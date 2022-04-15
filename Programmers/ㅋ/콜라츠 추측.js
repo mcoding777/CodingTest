@@ -8,6 +8,9 @@
 [문제]
 콜라츠 추측
 
+[테스트 날짜]
+22.04.15
+
 [링크]
 https://programmers.co.kr/learn/courses/30/lessons/12943
 */
@@ -54,5 +57,5 @@ function solution(num) {
 
 /*
 ★ 배운 점
-- return이 삼항연산자 일 때 num === 1 && 0 이면 false로 반환되니까 주의가 필요함
+- return num === 1 && 0 은 0이 아니라 false로 반환되니까 주의가 필요함
 */
