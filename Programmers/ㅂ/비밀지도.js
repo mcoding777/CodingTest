@@ -91,8 +91,8 @@ function solution(n, arr1, arr2) {
 }
 
 /*
-  ★ 배운 점
-  - 비트 연산자(&, ^, |)를 사용하면 이진수 계산이 가능하다
-  - Number.toString(진수)는 Number를 진수로 바꿔준다.
-  - padStart를 쓴 두번째 풀이보다 repeat, slice를 사용한 세번째 풀이가 더 빠르다.
-  */
+★★★ 배운 점 ★★★
+- 비트 연산자(&, ^, |)를 사용하면 이진수 계산이 가능하다
+- Number.toString(진수)는 Number를 진수로 바꿔준다.
+- padStart를 쓴 두번째 풀이보다 repeat, slice를 사용한 세번째 풀이가 더 빠르다.
+*/

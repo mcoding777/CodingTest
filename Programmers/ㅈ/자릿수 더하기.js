@@ -47,6 +47,7 @@ function solution(n) {
 }
 
 /*
+★★★ 배운 점 ★★★
 - 숫자를 배열로 바꾸는 방법에는 (n + "").split과 do while 문을 사용하는 방법이 있다.
 - String()보다 위의 방법이 훨씬 더 빠르다.
 - Array.prototype.reduce() 라는 누산기 함수가 존재한다.

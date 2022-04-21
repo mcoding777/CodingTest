@@ -83,6 +83,7 @@ function solution(id_list, report, k) {
 }
 
 /*
+★★★ 배운 점 ★★★
 - 애초에 처음부터 report를 Set 으로 만들어버리면
 중복 신고 내역은 전부 사라지기 때문에 작업하기 훨씬 수월하다.
 */

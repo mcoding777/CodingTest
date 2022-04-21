@@ -56,7 +56,7 @@ function solution(num) {
 }
 
 /*
-★ 배운 점
+★★★ 배운 점 ★★★
 - return num === 1 && 0 은 0이 아니라 false로 반환되니까 주의가 필요함
 - 재귀함수보다 while 문이 빠르다 (재귀함수는 최악의 속도 0.18ms / while 문은 최악의 속도 0.11ms)
 */
