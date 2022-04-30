@@ -32,12 +32,10 @@ function solution(array, commands) {
 function insertion(array) {
   for (let i = 1; i < array.length; i++) {
     let j = i;
-    while (j > 0) {
-      let temp = array[j - 1];
-      if (array[j] < temp) {
-        array[j - 1] = array[j];
-        array[j] = temp;
-      }
+    let current = array[j];
+    while (j > 0 && current < array[j - 1]) {
+      array[j] = array[j - 1];
+      array[j - 1] = current;
       j--;
     }
   }
