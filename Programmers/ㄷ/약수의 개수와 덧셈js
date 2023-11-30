@@ -1,0 +1,47 @@
+/*
+[플랫폼]
+프로그래머스
+
+[난이도]
+레벨 1
+
+[문제]
+약수의 개수와 덧셈
+
+[테스트 날짜]
+23.11.30
+
+[링크]
+https://school.programmers.co.kr/learn/courses/30/lessons/77884?language=javascript
+*/
+
+// 첫번째 풀이 -----------------------------------------------------------------------------------------------
+
+function solution(left, right) {
+  var answer = 0;
+  
+  for (let i=left; i <= right; i++) {
+      let 약수개수 = 1;
+      for (let j=2; j <= i; j++) {
+          i % j === 0 && (약수개수 += 1)
+      }
+      약수개수 % 2 === 0 ? (answer += i) : (answer -= i)
+  }
+  return answer;
+  
+}
+
+// 두번째 풀이 -----------------------------------------------------------------------------------------------
+
+function solution(left, right) {
+  var answer = 0;
+  for (let i = left; i <= right; i++) {
+      Number.isInteger(Math.sqrt(i)) ? (answer -= i) : (answer += i)
+  }
+  return answer;
+}
+
+/*
+★★★ 배운 점 ★★★
+- 제곱근이 정수이면 약수의 개수가 홀수이다.
+*/
